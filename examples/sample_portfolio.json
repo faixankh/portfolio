@@ -1,0 +1,72 @@
+{
+  "projects": [
+    {
+      "id": "stream-orchestrator",
+      "title": "Distributed Stream Orchestrator",
+      "description": "Event-driven orchestration across microservices.",
+      "tech_stack": ["Python", "Kafka", "Redis", "Docker", "Kubernetes"],
+      "complexity": 9.2,
+      "impact": 9.6,
+      "novelty": 8.4,
+      "quality": 8.8,
+      "business_value": 9.5,
+      "delivery_risk": 4.8,
+      "hours_to_present": 60,
+      "highlights": ["Reduced processing latency by 52%", "Saved $180k yearly infra cost"]
+    },
+    {
+      "id": "vision-qa",
+      "title": "Multimodal Vision QA",
+      "description": "Visual question-answering pipeline with explainability hooks.",
+      "tech_stack": ["Python", "PyTorch", "FastAPI", "Docker"],
+      "complexity": 8.7,
+      "impact": 8.8,
+      "novelty": 9.1,
+      "quality": 8.5,
+      "business_value": 8.4,
+      "delivery_risk": 5.1,
+      "hours_to_present": 50,
+      "highlights": ["Improved model accuracy by 11%", "Enabled explainability for audits"]
+    },
+    {
+      "id": "finops-platform",
+      "title": "Cloud FinOps Intelligence Platform",
+      "description": "Automated anomaly detection for cloud spend.",
+      "tech_stack": ["Python", "SQL", "Airflow", "Kubernetes", "Grafana"],
+      "complexity": 8.4,
+      "impact": 9.1,
+      "novelty": 7.9,
+      "quality": 8.9,
+      "business_value": 9.7,
+      "delivery_risk": 3.6,
+      "hours_to_present": 40,
+      "highlights": ["Detected 93% spend anomalies", "Reduced cloud spend by 22%"]
+    },
+    {
+      "id": "realtime-fraud",
+      "title": "Real-time Fraud Scoring Engine",
+      "description": "Low-latency risk scoring with adaptive rules.",
+      "tech_stack": ["Python", "Kafka", "PostgreSQL", "Redis", "gRPC"],
+      "complexity": 9.0,
+      "impact": 9.3,
+      "novelty": 8.2,
+      "quality": 8.6,
+      "business_value": 9.2,
+      "delivery_risk": 4.4,
+      "hours_to_present": 55,
+      "highlights": ["Cut fraud losses by 19%", "Maintained p95 latency under 35ms"]
+    }
+  ],
+  "goals": {
+    "target_roles": ["Staff Backend Engineer", "Platform Engineer"],
+    "must_include_tech": ["Python", "Kafka", "Kubernetes"],
+    "weights": {
+      "impact": 0.24,
+      "complexity": 0.18,
+      "novelty": 0.12,
+      "quality": 0.18,
+      "business_value": 0.18,
+      "tech_alignment": 0.10
+    }
+  }
+}
