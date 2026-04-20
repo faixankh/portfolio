@@ -1,0 +1,9 @@
+[project]
+name = "portfolio-intelligence-engine"
+version = "0.1.0"
+description = "Advanced portfolio ranking and optimization engine"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
